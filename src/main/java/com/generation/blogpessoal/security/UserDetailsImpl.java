@@ -10,6 +10,13 @@ import com.generation.blogpessoal.model.Usuario;
 
 public class UserDetailsImpl implements UserDetails {
 	
+	/*
+	 * Essa camada é responsavel por pegar as 
+	 * informações de Usuário, Senha, Direitos 
+	 * de acesso e as Restrições da conta e enviar
+	 * para o Spring Security.
+	 */
+	
 	private static final long serialVersionUID = 1L;
 	
 	private String userName;

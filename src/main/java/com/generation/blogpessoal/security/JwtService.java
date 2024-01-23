@@ -17,6 +17,13 @@ import io.jsonwebtoken.security.Keys;
 
 @Component
 public class JwtService {
+	
+	/*
+	 * Essa camada gera o token unico para
+	 * cada usuario, juntando o codigo aleatorio
+	 * do SECRET que pegamos no site, com o
+	 * Header e o PayLoad.
+	 */
 
 	public static final String SECRET = "cb194d8b330ed755028efdb19421c85754ceb0a32ba12df814a292cb05689cfa";
 	

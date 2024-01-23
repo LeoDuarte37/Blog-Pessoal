@@ -15,6 +15,13 @@ import com.generation.blogpessoal.repository.UsuarioRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
+	
+	/*
+	 * Apenas acessa o repositorio do Usuario
+	 * atraves da injeção de dependencias e
+	 * verifica se o email passado na UserDetailsImpl
+	 * pelo usuario existe no banco de dados.
+	 */
 
 	@Autowired
 	private UsuarioRepository usuarioRepository;
