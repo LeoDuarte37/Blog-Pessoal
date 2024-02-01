@@ -26,12 +26,12 @@ public class SwaggerConfig {
                     .name("Generation Brasil")
                     .url("https://brazil.generation.org/"))
                 .contact(new Contact()
-                    .name("Generation Brasil")
-                    .url("https://github.com/conteudoGeneration")
-                    .email("conteudogeneration@generation.org")))
+                    .name("Leonardo Rodrigues de Sousa Duarte")
+                    .url("https://github.com/LeoDuarte37")
+                    .email("leonardo.r.s.duarte@gmail.com")))
             .externalDocs(new ExternalDocumentation()
                 .description("Github")
-                .url("https://github.com/conteudoGeneration/"));
+                .url("https://github.com/LeoDuarte37/Blog-Pessoal"));
     }
 
 
